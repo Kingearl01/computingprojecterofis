@@ -205,15 +205,15 @@ const quizQuestions: Question[] = [
   },
   {
     id: 17,
-    question: "What should you do if you receive an email message that you no longer need?",
+    question: "The address of a website is mostly typed in the ........",
     options: [
-      "Forward it to all your contacts",
-      "Delete the message",
-      "Reply to it immediately",
-      "Print it out"
+      "title bar",
+      "address bar",
+      "taskbar",
+      "status bar"
     ],
     correctAnswer: 1,
-    explanation: "Deleting unnecessary email messages helps keep your inbox organized and frees up storage space."
+    explanation: "The URL (address of a website) is typed in the address bar of a web browser."
   },
   {
     id: 18,
@@ -254,15 +254,15 @@ const quizQuestions: Question[] = [
   },
   {
     id: 21,
-    question: "What role do 'smart sensors' play in the Internet of Things?",
+    question: "In 1989, the World Wide Web (WWW) was invented by ..........",
     options: [
-      "They display information on a screen",
-      "They collect data from the physical world and send it to the internet",
-      "They connect devices wirelessly",
-      "They power the devices"
+      "Sir Tim Bruce-Lee",
+      "Sir Tim Zuckerbery-Lee",
+      "Sir Tim Bernes-Lee",
+      "Sir Tim Cook-Lee"
     ],
     correctAnswer: 1,
-    explanation: "Smart sensors are crucial components of IoT, as they are responsible for detecting and collecting data (e.g., temperature, motion) from the physical environment, which is then transmitted over the internet."
+    explanation: "Sir Tim Berners-Lee inverted the WWW when he was working at CERN."
   },
   {
     id: 22,
