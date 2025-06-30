@@ -61,7 +61,7 @@ export default function HomePage() {
             <CardHeader>
               <div className="flex items-center gap-2">
                 <Calendar className="h-5 w-5 text-red-600" />
-                <CardTitle className="text-lg text-red-800">Important Deadline</CardTitle>
+                <CardTitle className="text-lg text-red-800">Deadline</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
