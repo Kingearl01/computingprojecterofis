@@ -32,214 +32,370 @@ interface StudentData {
 const quizQuestions = [
   {
     id: 1,
-    question: "What is the capital of France?",
-    options: ["London", "Berlin", "Paris", "Madrid"],
-    correctAnswer: 2,
-    explanation: "Paris is the capital and largest city of France.",
+    question: "Which of these is NOT an example of a facility offered by the internet?",
+    options: [
+      "FTP (File Transfer Protocol)",
+      "Local area network (LAN)",
+      "E-mail",
+      "WWW (World Wide Web)"
+    ],
+    correctAnswer: 1,
+    explanation: "LAN (Local Area Network) is a type of network, not a facility offered by the internet itself. E-mail, FTP, and WWW are common internet facilities."
   },
   {
     id: 2,
-    question: "Which planet is known as the Red Planet?",
-    options: ["Venus", "Mars", "Jupiter", "Saturn"],
-    correctAnswer: 1,
-    explanation: "Mars is called the Red Planet due to its reddish appearance from iron oxide on its surface.",
+    question: "What type of information can you typically find on the Internet?",
+    options: [
+      "Financial information only",
+      "Educational information only",
+      "Educational, Financial, and Entertainment information",
+      "Entertainment information only"
+    ],
+    correctAnswer: 2,
+    explanation: "The internet offers a vast array of information, including educational, financial, and entertainment content."
   },
   {
     id: 3,
-    question: "What is 15 × 8?",
-    options: ["110", "120", "130", "140"],
-    correctAnswer: 1,
-    explanation: "15 × 8 = 120",
+    question: "What does data duplication refer to in the context of information?",
+    options: [
+      "Organizing data in alphabetical order",
+      "Deleting unnecessary data",
+      "Having multiple copies of the same data",
+      "Creating new information"
+    ],
+    correctAnswer: 2,
+    explanation: "Data duplication means having identical copies of data in different locations or multiple times within the same system."
   },
   {
     id: 4,
-    question: "Who wrote 'Romeo and Juliet'?",
-    options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+    question: "Which of these is essential to connect to the Internet?",
+  
+    options: [
+      "A scanner",
+      "A desktop computer or mobile phone",
+      "A printer",
+      "A joystick"
+    ],
     correctAnswer: 1,
-    explanation: "William Shakespeare wrote the famous tragedy 'Romeo and Juliet'.",
+    explanation: "A desktop computer or a mobile phone are common devices needed to connect to the Internet. Printers, scanners, and joysticks are peripheral devices not essential for connection."
   },
   {
     id: 5,
-    question: "What is the largest ocean on Earth?",
-    options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-    correctAnswer: 3,
-    explanation: "The Pacific Ocean is the largest and deepest ocean on Earth.",
+    question: "What is the primary function of a web browser?",
+    options: [
+      "To send emails",
+      "To access and view web pages",
+      "To create documents",
+      "To play offline games"
+    ],
+    correctAnswer: 1,
+    explanation: "A web browser is a software application used to access and view information on the World Wide Web."
   },
   {
     id: 6,
-    question: "Which element has the chemical symbol 'O'?",
-    options: ["Gold", "Oxygen", "Silver", "Iron"],
-    correctAnswer: 1,
-    explanation: "Oxygen has the chemical symbol 'O' on the periodic table.",
+    question: "Which of the following is NOT a common web browser?",
+    
+    options: [
+      "Microsoft Edge",
+      "Google Chrome",
+      "Microsoft Word",
+      "Mozilla Firefox"
+    ],
+    correctAnswer: 2,
+    explanation: "Microsoft Word is a word processing application, not a web browser. Firefox, Chrome, and Edge are all popular web browsers."
   },
   {
     id: 7,
-    question: "What year did World War II end?",
-    options: ["1944", "1945", "1946", "1947"],
+    question: "What is a URL?",
+    options: [
+      "Unified Research Language",
+      "Uniform Resource Locator",
+      "User Resource Login",
+      "Universal Remote Link"
+    ],
     correctAnswer: 1,
-    explanation: "World War II ended in 1945 with the surrender of Japan.",
+    explanation: "URL stands for Uniform Resource Locator, which is the address of a web page or other resource on the Internet."
   },
   {
     id: 8,
-    question: "Which continent is the largest by area?",
-    options: ["Africa", "North America", "Asia", "Europe"],
+    question: "What is the purpose of the 'back' button in a web browser?",
+    options: [
+      "To close the browser",
+      "To refresh the current page",
+      "To return to the previous page visited",
+      "To go to the next page in browsing history"
+    ],
     correctAnswer: 2,
-    explanation: "Asia is the largest continent by both area and population.",
+    explanation: "The 'back' button allows you to navigate to the web page you were viewing immediately before the current one."
   },
   {
     id: 9,
-    question: "What is the square root of 144?",
-    options: ["10", "11", "12", "13"],
-    correctAnswer: 2,
-    explanation: "The square root of 144 is 12 (12 × 12 = 144).",
+    question: "When surfing the World Wide Web, what is the best way to quickly find specific information on a very long web page?",
+    options: [
+      "Print the page and read it offline",
+      "Use the 'Find' function (Ctrl+F or Cmd+F) in the browser",
+      "Scroll through the entire page",
+      "Close the page and search again"
+    ],
+    correctAnswer: 1,
+    explanation: "Using the 'Find' function (often activated by Ctrl+F on Windows or Cmd+F on Mac) allows you to search for specific text within the current web page."
   },
   {
     id: 10,
-    question: "Which gas do plants absorb from the atmosphere during photosynthesis?",
-    options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    question: "What is a 'favorite link' or 'bookmark' in a web browser used for?",
+    options: [
+      "To download files from the internet",
+      "To block unwanted websites",
+      "To save a shortcut to a frequently visited web page",
+      "To clear browsing history"
+    ],
     correctAnswer: 2,
-    explanation: "Plants absorb carbon dioxide from the atmosphere during photosynthesis.",
+    explanation: "A favorite link or bookmark saves the address of a web page so you can easily revisit it later without typing the full URL."
   },
   {
     id: 11,
-    question: "What is the smallest prime number?",
-    options: ["0", "1", "2", "3"],
+    question: "Which of these is a common search engine?",
+   
+    options: [
+      "VLC Media Player",
+      "Microsoft Word",
+      "Google",
+      "Adobe Photoshop"
+    ],
     correctAnswer: 2,
-    explanation: "2 is the smallest prime number and the only even prime number.",
+    explanation: "Google is a widely used search engine. Microsoft Word and Adobe Photoshop are application software, and VLC Media Player is for playing media."
   },
   {
     id: 12,
-    question: "Which country is home to the kangaroo?",
-    options: ["New Zealand", "Australia", "South Africa", "Brazil"],
-    correctAnswer: 1,
-    explanation: "Kangaroos are native to Australia.",
+    question: "What is the main reason for customizing your web browser?",
+    options: [
+      "To delete all your files",
+      "To make your computer faster",
+      "To personalize its appearance and add useful features",
+      "To change the computer's operating system"
+    ],
+    correctAnswer: 2,
+    explanation: "Customizing a browser allows you to change its themes, add extensions (add-ons/plug-ins), and set preferences to make it more suitable for your needs and preferences."
   },
   {
     id: 13,
-    question: "What is the chemical formula for water?",
-    options: ["CO2", "H2O", "NaCl", "CH4"],
-    correctAnswer: 1,
-    explanation: "Water has the chemical formula H2O (two hydrogen atoms and one oxygen atom).",
+    question: "What are 'cookies' in the context of web browsers?",
+    options: [
+      "Security features that protect your personal data from theft",
+      "Small food items displayed on websites",
+      "Small data files stored on your computer by websites to remember information about you",
+      "Programs that help your computer run faster"
+    ],
+    correctAnswer: 2,
+    explanation: "Cookies are small text files that websites store on your computer to remember information about you, such as login status, site preferences, or shopping cart contents."
   },
   {
     id: 14,
-    question: "Who painted the Mona Lisa?",
-    options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
-    correctAnswer: 2,
-    explanation: "Leonardo da Vinci painted the famous Mona Lisa.",
+    question: "What is the purpose of setting a 'homepage' in your web browser?",
+    options: [
+      "To change your computer's password",
+      "To set the page that opens automatically when you launch the browser",
+      "To make the browser load faster",
+      "To block all advertisements"
+    ],
+    correctAnswer: 1,
+    explanation: "The homepage is the web page that your browser loads by default when you open it or click the home button."
   },
   {
     id: 15,
-    question: "What is the longest river in the world?",
-    options: ["Amazon River", "Nile River", "Mississippi River", "Yangtze River"],
-    correctAnswer: 1,
-    explanation: "The Nile River is generally considered the longest river in the world.",
+    question: "Which of these is a common email service provider?",
+    options: [
+      "Microsoft Excel",
+      "YouTube",
+      "Google Docs",
+      "Gmail"
+    ],
+    correctAnswer: 3,
+    explanation: "Gmail is a popular email service provider. Microsoft Excel and Google Docs are productivity tools, and YouTube is a video-sharing platform."
   },
   {
     id: 16,
-    question: "Which organ in the human body produces insulin?",
-    options: ["Liver", "Kidney", "Pancreas", "Heart"],
-    correctAnswer: 2,
-    explanation: "The pancreas produces insulin, which regulates blood sugar levels.",
+    question: "What does 'Composing' an email message mean?",
+    options: [
+      "Reading an email you received",
+      "Writing a new email message",
+      "Deleting an email you received",
+      "Forwarding an email to someone else"
+    ],
+    correctAnswer: 1,
+    explanation: "Composing an email means writing a new email message."
   },
   {
     id: 17,
-    question: "What is the speed of light in vacuum?",
-    options: ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
-    correctAnswer: 0,
-    explanation: "The speed of light in vacuum is approximately 300,000 kilometers per second.",
+    question: "What should you do if you receive an email message that you no longer need?",
+    options: [
+      "Forward it to all your contacts",
+      "Delete the message",
+      "Reply to it immediately",
+      "Print it out"
+    ],
+    correctAnswer: 1,
+    explanation: "Deleting unnecessary email messages helps keep your inbox organized and frees up storage space."
   },
   {
     id: 18,
-    question: "Which is the hardest natural substance?",
-    options: ["Gold", "Iron", "Diamond", "Platinum"],
-    correctAnswer: 2,
-    explanation: "Diamond is the hardest naturally occurring substance.",
+    question: "What is the purpose of 'attaching a file' to an email message?",
+    options: [
+      "To send documents, pictures, or other files along with the email",
+      "To make the email text bigger",
+      "To block the recipient from replying",
+      "To change the email's background color"
+    ],
+    correctAnswer: 0,
+    explanation: "Attaching a file allows you to send documents, images, videos, or other types of files to the recipient of the email."
   },
   {
     id: 19,
-    question: "What is the capital of Japan?",
-    options: ["Osaka", "Kyoto", "Tokyo", "Hiroshima"],
-    correctAnswer: 2,
-    explanation: "Tokyo is the capital city of Japan.",
+    question: "What is the 'Internet of Things' (IoT)?",
+    
+    options: [
+      "A social media platform for sharing pictures",
+      "A network of physical objects embedded with sensors and software that connect and exchange data over the internet",
+      "A new type of internet cable",
+      "A way to make your computer run faster"
+    ],
+    correctAnswer: 1,
+    explanation: "The Internet of Things (IoT) refers to the network of everyday physical objects embedded with sensors, software, and other technologies that allow them to connect and exchange data over the internet."
   },
   {
     id: 20,
-    question: "How many sides does a hexagon have?",
-    options: ["5", "6", "7", "8"],
-    correctAnswer: 1,
-    explanation: "A hexagon has 6 sides.",
+    question: "Which of these is an example of an IoT gadget with a consumer part?",
+    options: [
+      "A basic calculator",
+      "A factory assembly line machine",
+      "A traditional landline phone",
+      "A Nest Smart Thermostat"
+    ],
+    correctAnswer: 3,
+    explanation: "A Nest Smart Thermostat is a common example of a consumer-grade IoT device, allowing users to control their home heating and cooling remotely."
   },
   {
     id: 21,
-    question: "Which planet is closest to the Sun?",
-    options: ["Venus", "Earth", "Mercury", "Mars"],
-    correctAnswer: 2,
-    explanation: "Mercury is the planet closest to the Sun.",
+    question: "What role do 'smart sensors' play in the Internet of Things?",
+    options: [
+      "They display information on a screen",
+      "They collect data from the physical world and send it to the internet",
+      "They connect devices wirelessly",
+      "They power the devices"
+    ],
+    correctAnswer: 1,
+    explanation: "Smart sensors are crucial components of IoT, as they are responsible for detecting and collecting data (e.g., temperature, motion) from the physical environment, which is then transmitted over the internet."
   },
   {
     id: 22,
-    question: "What is the largest mammal in the world?",
-    options: ["African Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+    question: "What is 'Digital Literacy' primarily about?",
+    options: [
+      "Knowing how to repair computers",
+      "Being able to use digital technology, communication tools, and networks to access, manage, integrate, evaluate, create, and communicate information",
+      "Learning how to read and write traditional books",
+      "Only using social media for entertainment"
+    ],
     correctAnswer: 1,
-    explanation: "The Blue Whale is the largest mammal and largest animal ever known to exist.",
+    explanation: "Digital literacy involves the ability to find, evaluate, create, and communicate information using digital technologies, as well as understanding how to use digital media responsibly and safely."
   },
   {
     id: 23,
-    question: "In which year did the Titanic sink?",
-    options: ["1910", "1911", "1912", "1913"],
-    correctAnswer: 2,
-    explanation: "The Titanic sank on April 15, 1912.",
+    question: "Why is it important to handle private and personal information carefully online?",
+    options: [
+      "To prevent online identity theft and protect your privacy",
+      "To make your computer faster",
+      "To avoid making new friends",
+      "To get more advertisements"
+    ],
+    correctAnswer: 0,
+    explanation: "Protecting private and personal information online is crucial to prevent identity theft, scams, and other security risks."
   },
   {
     id: 24,
-    question: "What is the main gas in Earth's atmosphere?",
-    options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-    correctAnswer: 2,
-    explanation: "Nitrogen makes up about 78% of Earth's atmosphere.",
+    question: "What is a 'strong password' or 'passphrase' used for online?",
+    options: [
+      "To speed up your internet connection",
+      "To make it easy for others to access your accounts",
+      "To share with everyone you know",
+      "To protect your online accounts from unauthorized access"
+    ],
+    correctAnswer: 3,
+    explanation: "Strong passwords or passphrases are vital security measures that make it difficult for unauthorized individuals to guess or crack your account credentials, thus protecting your online information."
   },
   {
     id: 25,
-    question: "Which country invented paper?",
-    options: ["Egypt", "Greece", "China", "India"],
-    correctAnswer: 2,
-    explanation: "Paper was invented in ancient China around 105 AD.",
+    question: "What is 'spam' in the context of email?",
+    options: [
+      "Unwanted, unsolicited junk email messages",
+      "Important messages from your friends",
+      "Messages from your teachers",
+      "Emails with important attachments"
+    ],
+    correctAnswer: 0,
+    explanation: "Spam refers to unsolicited and often unwanted email messages, typically sent in bulk for advertising or malicious purposes."
   },
   {
     id: 26,
-    question: "What is the freezing point of water in Celsius?",
-    options: ["0°C", "32°C", "100°C", "-32°C"],
-    correctAnswer: 0,
-    explanation: "Water freezes at 0°C (32°F).",
+    question: "Which of these is a major health hazard associated with the use of ICT tools?",
+    
+    options: [
+      "Improved physical fitness",
+      "Eye strain and fatigue",
+      "Stronger eyesight",
+      "Better posture"
+    ],
+    correctAnswer: 1,
+    explanation: "Prolonged use of ICT tools can lead to eye strain, irritation, and fatigue due to staring at screens for extended periods."
   },
   {
     id: 27,
-    question: "Which is the smallest country in the world?",
-    options: ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
-    correctAnswer: 1,
-    explanation: "Vatican City is the smallest country in the world by both area and population.",
+    question: "What is the recommended sitting posture when using a computer?",
+    
+    options: [
+      "Lying down on a chair",
+      "Standing up for the entire duration",
+      "Sitting upright at approximately 90 degrees with back supported",
+      "Slouching forward with a rounded back"
+    ],
+    correctAnswer: 2,
+    explanation: "Maintaining a proper sitting posture, such as sitting upright with your back supported and at about 90 degrees, helps prevent neck, back, and wrist pain."
   },
   {
     id: 28,
-    question: "What does 'www' stand for?",
-    options: ["World Wide Web", "World Wide Website", "World Web Wide", "Wide World Web"],
-    correctAnswer: 0,
-    explanation: "WWW stands for World Wide Web.",
+    question: "Besides good posture, what is another solution to health problems associated with ICT use?",
+    options: [
+      "Eating while using the computer",
+      "Increasing screen brightness to maximum",
+      "Taking short breaks and resting your eyes",
+      "Using the computer for longer periods"
+    ],
+    correctAnswer: 2,
+    explanation: "Taking short breaks from the screen and resting your eyes regularly helps reduce eye strain and discomfort."
   },
   {
     id: 29,
-    question: "How many bones are in an adult human body?",
-    options: ["196", "206", "216", "226"],
-    correctAnswer: 1,
-    explanation: "An adult human body has 206 bones.",
+    question: "What is a 'digital footprint'?",
+    options: [
+      "A new way to print documents",
+      "A type of digital currency",
+      "The trail of data you leave behind when you use the internet",
+      "A mark left by your shoes on a digital device"
+    ],
+    correctAnswer: 2,
+    explanation: "A digital footprint refers to the unique and identifiable trail of data that a person leaves behind when interacting with digital services and the internet."
   },
   {
     id: 30,
-    question: "Which vitamin is produced when skin is exposed to sunlight?",
-    options: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
-    correctAnswer: 3,
-    explanation: "Vitamin D is produced when skin is exposed to sunlight.",
-  },
+    question: "Why should you avoid posting detailed personal information online?",
+    options: [
+      "It makes your internet connection faster",
+      "It can be used by others for identity theft or other harmful purposes",
+      "It helps you make more virtual friends",
+      "It makes your social media profile more popular"
+    ],
+    correctAnswer: 1,
+    explanation: "Posting detailed personal information online can make you vulnerable to identity theft, phishing, and other security risks."
+  }
 ]
 
 export default function ResultsPage() {
@@ -522,8 +678,9 @@ export default function ResultsPage() {
 
       <div class="footer">
         <p>Generated on: ${new Date().toLocaleString()}</p>
-        <p>EROFIS EDUCATIONAL COMPLEX - Term Project Assessment System</p>
-        <p>Teacher: Mr. Samuel K. Ghanney | Email: ghsamuelk@gmail.com</p>
+        <p>EROFIS EDUCATIONAL COMPLEX - Computing term project work basic 6</p>
+        <p>Teacher: Sir Samuel | Email: ghsamuelk@gmail.com</p>
+        <p>Contact: <a href="https://earlkalf.netlify.app">https://earlkalf.netlify.app</a> </p>
       </div>
     </body>
     </html>

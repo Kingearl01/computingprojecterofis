@@ -165,7 +165,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8">
+    <div className="min-h-screen bg-gradient-to-r from-slate-500  to-zinc-500 py-8">
       <div className="container mx-auto px-4">
         <Card className="max-w-2xl mx-auto">
           <CardHeader>
@@ -193,10 +193,10 @@ export default function RegisterPage() {
                       <SelectValue placeholder="Select your grade" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="9">Grade 9</SelectItem>
-                      <SelectItem value="10">Grade 10</SelectItem>
-                      <SelectItem value="11">Grade 11</SelectItem>
-                      <SelectItem value="12">Grade 12</SelectItem>
+                      <SelectItem value="5A">Grade 5A</SelectItem>
+                      <SelectItem value="5B">Grade 5B</SelectItem>
+                      <SelectItem value="6">Grade 6</SelectItem>
+     
                     </SelectContent>
                   </Select>
                   {errors.grade && <p className="text-sm text-red-600">{errors.grade}</p>}
@@ -209,7 +209,7 @@ export default function RegisterPage() {
                   id="section"
                   value={formData.section}
                   onChange={(e) => handleInputChange("section", e.target.value)}
-                  placeholder="Enter your section (e.g., A, B, C)"
+                  placeholder="Enter your section (e.g., Red, Yellow, Blue, Green)"
                 />
                 {errors.section && <p className="text-sm text-red-600">{errors.section}</p>}
               </div>

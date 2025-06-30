@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { BookOpen, Users, FileText, Award, Calendar, User, School } from "lucide-react"
 
+import bgImage from "@/public/bg-image.jpg"
+
 export default function HomePage() {
   return (
     <div className="min-h-screen relative">
@@ -10,7 +12,7 @@ export default function HomePage() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+          backgroundImage: ` url(${bgImage.src})`,
         }}
       >
         {/* Overlay for better text readability */}
@@ -24,9 +26,9 @@ export default function HomePage() {
             <School className="h-8 w-8 text-white" />
             <h2 className="text-2xl font-bold text-white drop-shadow-lg">EROFIS EDUCATIONAL COMPLEX</h2>
           </div>
-          <h1 className="text-4xl font-bold text-white mb-4 drop-shadow-lg">Student Assessment System</h1>
+          <h1 className="text-4xl font-bold text-white mb-4 drop-shadow-lg">END OF TERM PROECT WORK : GRADE 6</h1>
           <p className="text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md">
-            Welcome to your term project assessment platform. This system will collect your information and evaluate
+            Welcome to your computing end of term project  platform. This system will collect your information and evaluate
             your knowledge through a comprehensive quiz.
           </p>
         </div>
@@ -43,13 +45,13 @@ export default function HomePage() {
             <CardContent>
               <div className="space-y-2">
                 <p className="text-sm text-blue-700">
-                  <strong>Name:</strong> Mr. Samuel K. Ghanney
+                  <strong>Name:</strong> Sir Samuel
                 </p>
                 <p className="text-sm text-blue-700">
                   <strong>Email:</strong> ghsamuelk@gmail.com
                 </p>
                 <p className="text-sm text-blue-700">
-                  <strong>Subject:</strong> Term Project Assessment
+                  <strong>Subject:</strong> COMPUTING
                 </p>
               </div>
             </CardContent>
@@ -64,8 +66,8 @@ export default function HomePage() {
             </CardHeader>
             <CardContent>
               <div className="space-y-2">
-                <p className="text-lg font-bold text-red-700">Friday, January 31st, 2025</p>
-                <p className="text-sm text-red-700">All assessments must be completed and submitted by 11:59 PM</p>
+                <p className="text-lg font-bold text-red-700">Monday, July 7th, 2025</p>
+
                 <p className="text-xs text-red-600">Late submissions will not be accepted</p>
               </div>
             </CardContent>
@@ -129,10 +131,10 @@ export default function HomePage() {
                   <li>
                     • You can only attempt the quiz <strong>once</strong>
                   </li>
-                  <li>• Complete all sections in order</li>
+                  
                   <li>• Your progress is automatically saved</li>
                   <li>• The quiz contains 30 questions</li>
-                  <li>• Some questions include images to identify</li>
+                  
                 </ul>
               </div>
               <div>
@@ -154,7 +156,7 @@ export default function HomePage() {
               <h4 className="font-semibold text-yellow-800 mb-2">⚠️ Important Notes</h4>
               <ul className="text-sm text-yellow-700 space-y-1">
                 <li>• Your information will be saved automatically as you progress</li>
-                <li>• You can safely close and reopen your browser - your progress won't be lost</li>
+               
                 <li>• Once you submit the quiz, you cannot retake it</li>
                 <li>• Make sure to download your PDF report after completion</li>
               </ul>
@@ -168,20 +170,19 @@ export default function HomePage() {
               <ul className="text-sm text-green-700 space-y-2">
                 <li>
                   <strong>Option 1 - Print & Submit:</strong> Print your PDF report and submit the physical copy to
-                  EROFIS EDUCATIONAL COMPLEX before the deadline
+                  School before the deadline
                 </li>
                 <li>
                   <strong>Option 2 - Email Submission:</strong> With the help of a parent/guardian, email your PDF
-                  report to Mr. Samuel K. Ghanney at:
+                  report to Sir Samuel at:
                   <span className="font-mono bg-green-100 px-2 py-1 rounded ml-1">ghsamuelk@gmail.com</span>
                 </li>
               </ul>
               <p className="text-sm text-green-700 mt-3">
-                <strong>Email Subject Format:</strong> "Term Project Assessment - [Your Full Name] - Grade [Your Grade]"
+                <strong>Email Subject Format:</strong> "COMPUTING PROJECT WORK - [Your Full Name] - Grade [Your Grade]"
               </p>
               <p className="text-sm text-green-700 mt-2">
-                <strong>Deadline Reminder:</strong> All submissions must be received by Friday, January 31st, 2025 at
-                11:59 PM
+                <strong>Deadline Reminder:</strong> All submissions must be received by Monday, July 7th, 2025.
               </p>
             </div>
 
@@ -227,7 +228,7 @@ export default function HomePage() {
         </div>
 
         <div className="mt-12 text-center text-sm text-white/80">
-          <p className="drop-shadow-md">EROFIS EDUCATIONAL COMPLEX - Term Project Assessment System</p>
+          <p className="drop-shadow-md">EROFIS EDUCATIONAL COMPLEX - Computing - End of Term Project Work and Assessment</p>
           <p className="drop-shadow-md">All data collected is for educational purposes only.</p>
         </div>
       </div>
