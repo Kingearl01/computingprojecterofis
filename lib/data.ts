@@ -135,7 +135,7 @@ const quizQuestions: Question[] = [
     question: "Which of these is a common search engine?",
    
     options: [
-      "VLC Media Player",
+      "Google Chrome",
       "Microsoft Word",
       "Google",
       "Adobe Photoshop"
@@ -261,7 +261,7 @@ const quizQuestions: Question[] = [
       "Sir Tim Bernes-Lee",
       "Sir Tim Cook-Lee"
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation: "Sir Tim Berners-Lee inverted the WWW when he was working at CERN."
   },
   {
