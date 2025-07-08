@@ -66,7 +66,7 @@ export default function HomePage() {
             </CardHeader>
             <CardContent>
               <div className="space-y-2">
-                <p className="text-lg font-bold text-red-700">Monday, July 7th, 2025</p>
+                <p className="text-lg font-bold text-red-700">Thursday, July 10th, 2025</p>
 
                 <p className="text-xs text-red-600">Late submissions will not be accepted</p>
               </div>
